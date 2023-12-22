@@ -1,0 +1,227 @@
+/*-=-=-=-=-=-=-=-=-=- CONFIG -=-=-=-=-=-=-=-=-=-*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.3 ease;
+    background-color: white;
+    color: black;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-=-=-=-=-=-=-=-=-=- COLOURS -=-=-=-=-=-=-=-=-=-*/
+
+:root {
+
+}
+
+/*-=-=-=-=-=-=-=-=-=- NAVBAR -=-=-=-=-=-=-=-=-=-*/
+
+.navbar {
+    position: fixed;
+    min-height: 70px;
+    padding: 35px 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo {
+    padding: 10px 10px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:20%;
+    padding: 10px 10px;
+}
+
+.navbar-contact li img {
+    height: 25px;
+    width: 25px;
+}
+
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navbar-menu span {
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+    background-color: black;
+
+}
+
+/*-=-=-=-=-=-=-=-=-=- MAIN -=-=-=-=-=-=-=-=-=-*/
+
+.style-container {
+    padding: 0 50px;
+}
+
+/*-=-=-=-=-=-=-=-=-=- HERO -=-=-=-=-=-=-=-=-=-*/
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    padding-top: 105px;
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.info h1 {
+    font-size: 70px;
+    margin: 5px 0;
+}
+
+.info .text {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+
+.cv-link {
+    margin: 50px 0 0 0;
+    height: 60px;
+    width: 230px;
+    border-radius: 4px;
+}
+
+/*-=-=-=-=-=-=-=-=-=- ABOUT -=-=-=-=-=-=-=-=-=-*/
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.description {
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.description h1 {
+    font-size: 30px;
+    margin: 10px 0 40px 0;
+}
+
+.description .text {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.soft-skills {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/*-=-=-=-=-=-=-=-=-=- SKILLS -=-=-=-=-=-=-=-=-=-*/
+
+.skills {
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-list {
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.box1 .box2 .box3 {
+    height: 195px;
+    width: 370px;
+    margin: 24px 32px;
+    background-color: brown;
+}
+
+/*-=-=-=-=-=-=-=-=-=- EXPERIENCES -=-=-=-=-=-=-=-=-=-*/
+
+.experiences {
+    height: 100vh;
+    width: 100%;
+    background-color: purple;
+}
+
+/*-=-=-=-=-=-=-=-=-=- PROJECTS -=-=-=-=-=-=-=-=-=-*/
+
+.projects {
+    height: 100vh;
+    width: 100%;
+    background-color: saddlebrown;
+}
+
+/*-=-=-=-=-=-=-=-=-=- FOOTER -=-=-=-=-=-=-=-=-=-*/

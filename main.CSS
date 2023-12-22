@@ -1,0 +1,30 @@
+/*-=-=-=-=-=-=-=-=-=- CONFIG -=-=-=-=-=-=-=-=-=-*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: black;
+    background-color: white;
+    transition: all 0.3 ease;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-=-=-=-=-=-=-=-=-=- COLOURS -=-=-=-=-=-=-=-=-=-*/
+
+:root {
+    --high-contrast-text: black;
+    --low-contrast-text: black;
+    --hovered-solid-backgrounds: black;
+    --solid-backgrounds: black;
+}
+
+
